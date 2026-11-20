@@ -16,3 +16,31 @@ git status
 4. Check Git identity
 git config --global user.name
 git config --global user.email
+
+========================================
+UBUNTU EC2 - DEVELOPMENT BRANCH PRACTICE
+========================================
+
+Branch: abdul_ec2
+
+1. Fetch changes from GitHub
+git fetch origin
+
+2. Create and switch to a new branch
+git switch -c abdul_ec2
+
+3. Check branches
+git branch -avv
+
+4. Check changes
+git status
+git diff
+
+5. Stage changes
+git add git01.txt
+
+6. Commit changes
+git commit -m "update from EC2 branch"
+
+7. Push branch to GitHub
+git push -u origin abdul_ec2
