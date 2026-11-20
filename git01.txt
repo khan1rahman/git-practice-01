@@ -1,0 +1,18 @@
+GIT AND GITHUB PRACTICAL
+
+Machine: Ubuntu EC2
+Repository: git_01
+Branch: main
+
+1. Initialize repository
+git init
+
+2. Rename branch
+git branch -m main
+
+3. Check status
+git status
+
+4. Check Git identity
+git config --global user.name
+git config --global user.email
