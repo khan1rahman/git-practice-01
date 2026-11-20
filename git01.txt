@@ -16,3 +16,32 @@ git status
 4. Check Git identity
 git config --global user.name
 git config --global user.email
+
+
+========================================
+WINDOWS MACHINE - LOCAL BRANCH PRACTICE
+========================================
+
+Branch: abdul_local
+
+1. Create and switch to a new branch
+git switch -c abdul_local
+
+2. Check current branch
+git branch
+
+3. Check working tree
+git status
+
+4. Review file changes
+git diff
+
+5. Stage changes
+git add git01.txt
+
+6. Commit changes
+git commit -m "update from Windows local branch"
+
+7. Push branch to GitHub
+git push -u origin abdul_local
+
