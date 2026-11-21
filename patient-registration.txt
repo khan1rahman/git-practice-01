@@ -1,0 +1,20 @@
+FEATURE: PATIENT REGISTRATION
+
+Developer: A
+Machine: Windows
+Branch: feature/patient-registration
+
+Feature requirements:
+1. Register a new patient.
+2. Store patient full name.
+3. Store date of birth.
+4. Store contact number.
+5. Generate a unique patient ID.
+6. View patient details.
+
+Git workflow:
+1. git status
+2. git add patient-registration.txt
+3. git diff --staged
+4. git commit -m "add patient registration module"
+5. git push -u origin feature/patient-registration
