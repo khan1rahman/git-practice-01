@@ -1,0 +1,22 @@
+FEATURE: APPOINTMENT MODULE
+
+Developer: B
+Machine: Ubuntu EC2
+Branch: feature/appointment-module
+
+Feature requirements:
+1. Create a new appointment.
+2. Store appointment date and time.
+3. Associate appointment with a patient ID.
+4. Support appointment status:
+   - Scheduled
+   - Completed
+   - Cancelled
+5. View appointment details.
+
+Git workflow:
+1. git status
+2. git add appointment-module.txt
+3. git diff --staged
+4. git commit -m "add appointment module"
+5. git push -u origin feature/appointment-module
